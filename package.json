@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "windows": "start.bat",
-    "linux": ".start.sh"
+    "linux": ".start.sh",
+    "start": "echo For windows type \"start.bat\" and for linux type \".start.sh\", Don't forget the \".\""
   },
   "repository": {
     "type": "git",
