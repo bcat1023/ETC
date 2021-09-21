@@ -1,7 +1,7 @@
 {
   "name": "etc",
   "version": "0.0.1",
-  "description": "A Os/Shell built on python",
+  "description": "A OS/Shell built on python",
   "main": "console.py",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,12 +15,15 @@
   },
   "keywords": [
     "OS",
-    "shell"
+    "shell",
+    "python",
+    "ISC",
+    "etc"
   ],
   "author": "bcat1023",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bcat1023/ETC/issues"
   },
-  "homepage": "https://github.com/bcat1023/ETC#readme"
+  "homepage": "https://github.com/bcat1023/ETC"
 }
