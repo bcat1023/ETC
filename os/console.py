@@ -35,7 +35,8 @@ def systemapp():
         print("help | Displays a list of commands")
         print("help_adv | Displays a list of advanced commands (requires mouse to scroll)")
         print("version | Displays the version of ETC that you are currently using")
-        print("shutdown | Shutdown the ETC")
+        print("shutdown | Shutdown ETC")
+        print("reboot | Reboot ETC")
         print("clear | Clears the screen")
         newline()
     elif passondata == "clear":
@@ -58,12 +59,23 @@ def systemapp():
         newline()
         print("Shutting down...")
         clear()
-        os.system("python console.py")
+        os.system("python ./os/console.py")
         quit()
+    elif passondata == "help_adv":
+        newline()
+        print('Sorry this feature isn\'t ready quite yet')
+        print("An error within a internal system app occurred and the application has closed, you have been returned to the console")
+        vardump()
+        input(errordefualt)
     else:
         print("An error within a internal system app occurred and the application has closed, you have been returned to the console")
         vardump()
         input(errordefualt)
+
+def error():
+    print("An error within a internal system app occurred and the application has closed, you have been returned to the console")
+    vardump()
+    input(errordefualt)
 
 def consoleload():
     clear()
