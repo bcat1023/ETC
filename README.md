@@ -10,4 +10,4 @@ If you spot a typo or bug don't be afraid to fix it, it helps to make progress.
 Default Username: user1
 Defualt Password: password1
 
-Your looking at the development-version which might not be stable and not work correctly, Switch to main for a stable version
+Your looking at the testing-version which might not be stable and not work correctly, Switch to main for a stable version
