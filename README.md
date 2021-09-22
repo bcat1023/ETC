@@ -7,4 +7,7 @@ Start in mac with ".start.sh" (I don't have a mac and don't know if this even wo
 
 If you spot a typo or bug don't be afraid to fix it, it helps to make progress.
 
+Default Username: user1
+Defualt Password: password1
+
 Your looking at the development-version which might not be stable and not work correctly, Switch to main for a stable version
